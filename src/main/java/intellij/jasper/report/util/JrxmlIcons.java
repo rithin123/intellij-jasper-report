@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2019 Chathura Buddhika
+ * Copyright (c) 2024 rithin123
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,12 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package lk.chathurabuddi.util;
+package intellij.jasper.report.util;
 
 import com.intellij.openapi.util.IconLoader;
 
 import javax.swing.*;
 
 public class JrxmlIcons {
-    public static final Icon FILE = IconLoader.getIcon("/lk/chathurabuddi/icons/jrxml.png");
+    public static final Icon FILE = IconLoader.getIcon("/intellij/jasper/report/icons/jrxml.png");
 }

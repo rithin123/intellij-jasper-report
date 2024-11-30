@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2019 Chathura Buddhika
+ * Copyright (c) 2024 rithin123
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +21,43 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package lk.chathurabuddi.lang.jrxml;
+package intellij.jasper.report.file.type.jrxml;
 
-import com.intellij.lang.Language;
-import com.intellij.lang.xml.XMLLanguage;
+import com.intellij.openapi.fileTypes.LanguageFileType;
+import intellij.jasper.report.util.JrxmlIcons;
+import intellij.jasper.report.lang.jrxml.JrxmlLanguage;
+import org.jetbrains.annotations.*;
 
-public class JrxmlLanguage extends XMLLanguage {
+import javax.swing.*;
 
-    private JrxmlLanguage() {
-        super((Language) null, "Jrxml", "application/xml", "text/xml");
+public class JrxmlFileType extends LanguageFileType {
+    public static final JrxmlFileType INSTANCE = new JrxmlFileType();
+
+    private JrxmlFileType() {
+        super(JrxmlLanguage.INSTANCE);
+    }
+
+    @NotNull
+    @Override
+    public String getName() {
+        return "Jasper source file";
+    }
+
+    @NotNull
+    @Override
+    public String getDescription() {
+        return "Jasper report source file, written in XML";
+    }
+
+    @NotNull
+    @Override
+    public String getDefaultExtension() {
+        return "jrxml";
+    }
+
+    @Nullable
+    @Override
+    public Icon getIcon() {
+        return JrxmlIcons.FILE;
     }
 }

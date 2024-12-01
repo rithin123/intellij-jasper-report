@@ -1,0 +1,57 @@
+import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+
+plugins {
+    id 'java'
+    id("org.jetbrains.intellij.platform") version "2.1.0"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21) // Or 18, whichever you wish
+    }
+}
+
+group 'intellij.jasper.report'
+version version
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+
+repositories {
+    mavenCentral()
+
+    intellijPlatform {
+        defaultRepositories()
+    }
+}
+
+
+repositories {
+    mavenCentral()
+
+    intellijPlatform {
+        defaultRepositories()
+    }
+}
+
+dependencies {
+    intellijPlatform {
+        intellijIdeaCommunity '2024.3'
+
+        bundledPlugin 'com.intellij.java'
+
+        pluginVerifier()
+        zipSigner()
+        instrumentationTools()
+
+        testFramework TestFrameworkType.Platform.INSTANCE
+    }
+
+    testImplementation 'junit:junit:4.13.2'
+    // other dependencies, e.g., 3rd-party libraries
+}
+patchPluginXml {
+}

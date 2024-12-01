@@ -2,7 +2,7 @@
 <!--
  The MIT License (MIT)
 
-Copyright (c) 2024 rithin123
+Copyright (c) 2024 warrior-rpt
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@ Copyright (c) 2024 rithin123
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
 -->
-<idea-plugin url="https://github.com/rithin123/intellij-jasper-report">
+<idea-plugin url="https://github.com/warrior-rpt/intellij-jasper-report">
     <id>intellij.jasper-report</id>
     <name>Jasper Report</name>
     <version>1.0.0</version>

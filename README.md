@@ -9,24 +9,24 @@ Open `Settings > Plugins > Marketplace` in your Intellij Idea IDE, search for Ja
 1. **Build from source**    
 Clone the repository and run `buildPlugin` gradle task in project root. After that plugin jar file will be generated at `<PROJECT_ROOT>/build/libs` directory
     ```
-    git clone https://github.com/rithin123/intellij-jasper-report.git
+    git clone https://github.com/warrior-rpt/intellij-jasper-report.git
     cd intellij-jasper-report-support
     gradle buildPlugin
     ```
 
 ### Issues
 Please make sure to read the 
-[issue reporting checklist](https://github.com/rithin123/intellij-jasper-report/blob/master/CONTRIBUTING.md#issue-reporting-guidelines) 
+[issue reporting checklist](https://github.com/warrior-rpt/intellij-jasper-report/blob/master/CONTRIBUTING.md#issue-reporting-guidelines) 
 before opening an issue. Issues not conforming to the guidelines may be closed immediately.
 
 ### Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/rithin123/intellij-jasper-report/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/warrior-rpt/intellij-jasper-report/releases).
 
 ### Contribution
 Contributions, issues and feature requests are welcome. Feel free to check 
-[issues page](https://github.com/rithin123/intellij-jasper-report/issues) 
+[issues page](https://github.com/warrior-rpt/intellij-jasper-report/issues) 
 if you want to contribute. Please make sure to read the 
-[contributing guide](https://github.com/rithin123/intellij-jasper-report/blob/master/CONTRIBUTING.md) 
+[contributing guide](https://github.com/warrior-rpt/intellij-jasper-report/blob/master/CONTRIBUTING.md) 
 before making a pull request.
 
 ### Thanks 
@@ -35,5 +35,5 @@ Since the project wasn't maintained for long, I have copied the repo and made th
 
 
 ### License
-Copyright (c) 2024 rithin123
+Copyright (c) 2024 warrior-rpt
 This project is [MIT](http://opensource.org/licenses/MIT) licensed.

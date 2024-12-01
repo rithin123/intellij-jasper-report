@@ -9,7 +9,7 @@ Open `Settings > Plugins > Marketplace` in your Intellij Idea IDE, search for Ja
 1. **Build from source**    
 Clone the repository and run `buildPlugin` gradle task in project root. After that plugin jar file will be generated at `<PROJECT_ROOT>/build/libs` directory
     ```
-    git clone https://github.com/rithin123/intellij-jasper-report-support.git
+    git clone https://github.com/rithin123/intellij-jasper-report.git
     cd intellij-jasper-report-support
     gradle buildPlugin
     ```

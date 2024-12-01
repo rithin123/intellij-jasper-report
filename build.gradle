@@ -7,27 +7,12 @@ plugins {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21) // Or 18, whichever you wish
+        languageVersion = JavaLanguageVersion.of(21) // Adjust Java version as needed
     }
 }
 
-group 'intellij.jasper.report'
-version version
-
-java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
-}
-
-
-repositories {
-    mavenCentral()
-
-    intellijPlatform {
-        defaultRepositories()
-    }
-}
-
+group = 'intellij.jasper.report'
+version = '1.0.0' // Set your plugin's version here
 
 repositories {
     mavenCentral()
@@ -39,7 +24,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        intellijIdeaCommunity '2024.3'
+        intellijIdeaCommunity '2024.2'
 
         bundledPlugin 'com.intellij.java'
 

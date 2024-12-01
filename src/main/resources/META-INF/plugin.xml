@@ -2,7 +2,7 @@
 <!--
  The MIT License (MIT)
 
- Copyright (c) 2024 Rithin Paul
+Copyright (c) 2024 rithin123
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -22,19 +22,19 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
 -->
-<idea-plugin url="https://github.com/rithin123/intellij-jasper-report-support">
+<idea-plugin url="https://github.com/rithin123/intellij-jasper-report">
     <id>intellij.jasper-report</id>
     <name>Jasper Report</name>
     <version>1.0.0</version>
     <vendor email="ritn007@gmail.com">ritn</vendor>
 
     <description><![CDATA[
-    This plugin will enable Jasper Report support within Intellij Idea.<br>
+    This plugin will enable Jasper Report within Intellij Idea.<br>
     ]]></description>
 
     <change-notes><![CDATA[
-      Release 2.0.0: v2.0.0<br>
-      - Added support for Intellij 2024.3<br>
+      Release 1.0.0: v1.0.0<br>
+      - Added support for Intellij 2024.2<br>
     ]]>
     </change-notes>
     <depends>com.intellij.modules.platform</depends>

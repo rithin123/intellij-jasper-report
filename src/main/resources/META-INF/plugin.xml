@@ -23,10 +23,10 @@ Copyright (c) 2024 warrior-rpt
  SOFTWARE.
 -->
 <idea-plugin url="https://github.com/warrior-rpt/intellij-jasper-report">
-    <id>intellij.jasper-report</id>
+    <id>jasper-report</id>
     <name>Jasper Report</name>
     <version>1.0.0</version>
-    <vendor email="ritn007@gmail.com">ritn</vendor>
+    <vendor email="ritn007@gmail.com">warrior-rpt</vendor>
 
     <description><![CDATA[
     This plugin will enable Jasper Report within Intellij Idea.<br>
